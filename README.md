@@ -72,11 +72,10 @@ npm install
 # Create .env file and add:
 PRIVATE_KEY=your_private_key_here
 INFURA_URL=https://sepolia.infura.io/v3/your_project_id_here
+```
 
-📝 Main Commands
-bash
-Copiar
-Editar
+### 4.📝 Main Commands
+```bash
 # Compile smart contracts
 npm run compile
 
@@ -85,8 +84,10 @@ npm run test
 
 # Deploy to Sepolia network
 npm run deploy
+```
 
-🔎 Verifying Deployment
+### 5. 🔎 Verifying Deployment
+```bash
 After running npm run deploy, your terminal will display the deployed contract address.
 
 Go to 👉 https://sepolia.etherscan.io
@@ -94,3 +95,4 @@ Go to 👉 https://sepolia.etherscan.io
 Paste the contract address
 
 You’ll be able to view all contract transactions and data on-chain
+```
